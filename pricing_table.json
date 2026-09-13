@@ -1,0 +1,52 @@
+{
+  "concrete": {
+    "market_rate_per_ton": 8,
+    "processing_cost_per_ton": 5.5,
+    "co2_avoided_per_ton": 70
+  },
+  "steel": {
+    "market_rate_per_ton": 220,
+    "processing_cost_per_ton": 30,
+    "co2_avoided_per_ton": 1800
+  },
+  "wood": {
+    "market_rate_per_ton": 15,
+    "processing_cost_per_ton": 4,
+    "co2_avoided_per_ton": 90
+  },
+  "drywall": {
+    "market_rate_per_ton": 3,
+    "processing_cost_per_ton": 6,
+    "co2_avoided_per_ton": 20
+  },
+  "asphalt": {
+    "market_rate_per_ton": 10,
+    "processing_cost_per_ton": 6,
+    "co2_avoided_per_ton": 60
+  },
+  "brick": {
+    "market_rate_per_ton": 5,
+    "processing_cost_per_ton": 4,
+    "co2_avoided_per_ton": 40
+  },
+  "glass": {
+    "market_rate_per_ton": 12,
+    "processing_cost_per_ton": 7,
+    "co2_avoided_per_ton": 300
+  },
+  "plastic": {
+    "market_rate_per_ton": 25,
+    "processing_cost_per_ton": 10,
+    "co2_avoided_per_ton": 1500
+  },
+  "insulation": {
+    "market_rate_per_ton": 2,
+    "processing_cost_per_ton": 8,
+    "co2_avoided_per_ton": 15
+  },
+  "mixed_debris": {
+    "market_rate_per_ton": 1,
+    "processing_cost_per_ton": 12,
+    "co2_avoided_per_ton": 5
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "concrete": {
+    "pathway": "recycle_aggregate",
+    "feasibility_score": 0.9,
+    "constraints": ["requires crushing on-site or nearby facility"],
+    "notes": "Crush and reuse as road base or new concrete aggregate"
+  },
+  "steel": {
+    "pathway": "recycle_scrap",
+    "feasibility_score": 0.97,
+    "constraints": [],
+    "notes": "High-value scrap metal, near-universal recyclability"
+  },
+  "wood": {
+    "pathway": "downcycle_or_reuse",
+    "feasibility_score": 0.7,
+    "constraints": ["treated wood cannot be reused directly"],
+    "notes": "Reuse if untreated; downcycle to mulch/particleboard if treated"
+  },
+  "drywall": {
+    "pathway": "recycle_specialty",
+    "feasibility_score": 0.55,
+    "constraints": ["requires specialty recycler", "moisture damage reduces feasibility"],
+    "notes": "Gypsum can be reprocessed into new drywall or used as soil amendment"
+  },
+  "asphalt": {
+    "pathway": "recycle_aggregate",
+    "feasibility_score": 0.92,
+    "constraints": ["requires milling/crushing equipment"],
+    "notes": "Reclaimed asphalt pavement (RAP) is widely reused in new asphalt mixes"
+  },
+  "brick": {
+    "pathway": "reuse_or_downcycle",
+    "feasibility_score": 0.6,
+    "constraints": ["intact bricks can be reused; broken brick is downcycled as fill"],
+    "notes": "Whole bricks have high reuse value; rubble becomes aggregate fill"
+  },
+  "glass": {
+    "pathway": "recycle_material",
+    "feasibility_score": 0.8,
+    "constraints": ["contamination from other materials lowers value"],
+    "notes": "Clean glass can be recycled into new glass products or glasphalt"
+  },
+  "plastic": {
+    "pathway": "recycle_material",
+    "feasibility_score": 0.65,
+    "constraints": ["type must be identified/sorted", "contamination reduces feasibility"],
+    "notes": "Construction plastics (PVC piping, sheeting) recyclable if sorted by resin type"
+  },
+  "insulation": {
+    "pathway": "downcycle_or_energy_recovery",
+    "feasibility_score": 0.3,
+    "constraints": ["limited recycling infrastructure", "contamination common"],
+    "notes": "Often landfilled; some fiberglass/foam programs exist regionally"
+  },
+  "mixed_debris": {
+    "pathway": "sort_then_landfill_residual",
+    "feasibility_score": 0.2,
+    "constraints": ["requires manual or mechanical sorting before any recovery is possible"],
+    "notes": "Default fallback when materials cannot be cleanly separated; recommend sorting"
+  }
+}
